@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/donation.css">
     <title>Formulaire de donation</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="container-header">
             <h1>Hum<span>Aid</span></h1>
             <h1>FORMULAIRE</h1>
         </div>
-        <div>
+        <div class="container-p">
             <p> 
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Rem tenetur incidunt magnam quisquam distinctio vel. Ab earum molestias perspiciatis 
@@ -19,11 +20,13 @@
                 dolor est.
             </p>
         </div>
+            
         
+       
     </header>
     <form action="">
-        <div>
-            <div>
+        <div class="container-input">
+            <div class="container-input-info">
                 <label for="">Entrer votre nom</label><br>
                 <input type="text" placeholder="Ex: aron"><br><br>
 
@@ -31,7 +34,7 @@
                 <input type="text" placeholder="Ex: aron"><br><br>
             </div>
 
-            <div>
+            <div class="container-input-info">
                 <label for="">Entrer votre nom</label><br>
                 <input type="text" placeholder="Ex: aron"><br><br>
 
@@ -40,14 +43,15 @@
             </div>
         </div>
         
-        <div>
+        <div class="container-paiement">
             <h3>
                 Donation infrormation
             </h3>
 
-            <div>
+            <div class="container-modalite-paiement">
                 <div>
                     <label for="">Montant</label><br>
+                </div>
 
                 <div>
                     <input type="radio" placeholder="">
@@ -69,9 +73,11 @@
             </div>
 
 
-            <div>
+            <div class="container-moy-paie">
                 <div>
                     <label for="">Moyen de paiement</label><br>
+                </div>
+
 
                 <div>
                     <input type="radio" placeholder="">
@@ -85,7 +91,15 @@
                 </div>
             </div>  
         </div>
-
+        <div class="container-btn">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Annuler</button>
+        </div>
     </form>
+    <footer>
+        <div class="container-footer">
+            <p>© 2023 HumAid. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -177,22 +177,31 @@ li .don{
 
 .container-header-apropos{
     display: flex;
-    gap: 30px;
-    display: flex;
     justify-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .container-header-apropos h2{
-    font-size: 2.5rem;
     font-weight: bold;
+    font-size: 2.5rem;
+
 }
 .trait{
+    padding: 0;
+    margin: 0;
     font-size: 40px;
-    color: orange;    
+    color: orange; 
+    display: flex;
+    align-items: center;   
 }
 .texte-apropos{
     color: rgb(87, 85, 85);
-    font-weight: bold; 
+    font-size: 1.1em;
+    display:flex;
+    align-items: center;
+    
 }
 
 .container-body-apropos{
@@ -344,26 +353,24 @@ li .don{
     height:auto;
     padding: 20px 40px;
     color:black;
-    flex-wrap: wrap;
 }
 
 .box-cause{
     display: flex;
     margin-top: 40px;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .donation-section {
-    width: 30%;
-    margin: auto;
+    width: 20%;
     text-align: center;
+    
 }
 
 .donation-image {
     width: 100%;
-    height: 240px;
+    height: auto;
 }
 
 .donation-text {
@@ -505,8 +512,11 @@ li .don{
 }
 .calendrier-evenemet{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .calendrier-evenemet p span{
     color: orange;
@@ -526,15 +536,16 @@ li .don{
     text-decoration: none;
     color: white;
 }
-
-.btn2 {
-    height: 30px;
-    background-color:white;
+.btn1 a:hover {
+    color: orange;
 }
-
-.btn2 a {
-    text-decoration: none;
-    color:black;
+.btn1 button {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 1px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .publicite{
@@ -554,6 +565,8 @@ li .don{
 
 .nouvelle{
     margin: 100px;
+    
+    
 }
 
 .container-nouvel{
@@ -562,11 +575,10 @@ li .don{
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
-    
 }
 
 .element1-nouvelle{
-    width: 40%;
+    width: 20%;
     height: auto;
 }
 
@@ -595,19 +607,28 @@ li .don{
 }
 
 .contact {
-    height: 70vh;
+    margin-bottom: 10px;
 }
 
+.container-body-contact{
+    display: flex; 
+    margin-top: 80px;   
+
+}
+
+.container-form-contact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 form{
-    height: 40vh;
-    padding: 20px;
+    height: 100%;
     flex-wrap: wrap;
 }
 
-.element-form{
-    height: 40vh;
-}
 
 .form1{
     display: flex;
@@ -617,26 +638,64 @@ form{
 
 .form1 input{
     width: 40%;
-    padding: 10px;
-    height: 7vh;
     border: none;
-    box-shadow: 0 0 7px rgb(255, 165, 0);
+    border-bottom:   1px solid #080808;
+}
+.form1 textarea{
+    width: 40%;
+    border:  none;
+    border-bottom: 1px solid #000000;
+    
 }
 
 form button{
-   position: relative;
-   left: 110px;
-   background-color: #ffc107;
-   width: 20%;
-   height: 7vh;
+    width: 90%;
+    height: 5vh;
+    border: none;
+    box-shadow: 0 0 7px rgb(255, 165, 0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffc107;
+    transition: background-color 0.3s ease;
+}
+.container-info-contact{
+    width: 50%;
+    
+}
+.info-social-media p {
+    margin-top: 15px;
+}
+
+.social-media-links{
+    margin-top: 10px;
+    list-style: none;
+    margin-top: 5px;
+}
+.social-media-links li{
+    margin-top: 10px;
+}
+.social-media-links a{
+    text-decoration: none;
+    color: black;
+}
+.social-media-links a:hover{
+    color: orange;
+}
+
+.social-media-links a img{
+    width: 40px;
+    height: 40px;
+}
+
+.info-adresse{
+    margin-top: 20px;
 }
 
 footer{
-    background-color:  #ffc107;
-    height: 5vh;
+    text-shadow: 0 0 5px rgb(226, 195, 138);
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
