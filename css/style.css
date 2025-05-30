@@ -30,7 +30,7 @@ header{
 }
 
 .menu-nav{
-    display: none;
+    display: flex;
     list-style: none;
     width: 50%;
     margin: 0;
@@ -424,27 +424,29 @@ li .don{
     margin-top: 60px;
 }
 
-.image1{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 70px;
-}
-.image1 img{
-    width: 25%;
-    height: auto;
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
-.image2{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
-.image2 img{
-    width: 25%;
-    height: auto;
+
+.slide {
+  min-width: 100%;
+  display: none;
+  object-fit: cover;
 }
+
+.slide.active {
+  display: block;
+}
+
 
 .effectif{
     height: auto;
