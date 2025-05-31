@@ -424,30 +424,22 @@ li .don{
     margin-top: 60px;
 }
 
-.slider {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  margin: 20px auto;
-  max-width: 800px;
+.container-slider{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.slider-container {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+.container-photo1{
+    width: 20%;
 }
 
-.slide {
-  min-width: 100%;
-  display: none;
-  object-fit: cover;
+.container-photo1 img{
+    width: 100%;
 }
-
-.slide.active {
-  display: block;
-}
-
-
 .effectif{
     height: auto;
     background-color: black;
