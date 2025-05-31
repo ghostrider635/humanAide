@@ -440,36 +440,46 @@ li .don{
 .container-photo1 img{
     width: 100%;
 }
-.effectif{
-    height: auto;
-    background-color: black;
-    padding: 10px;
-    display: flex;
-}
 
-.donateur i {
+.container-liens{
+    width: 100%;
     display: flex;
     justify-content: center;
-    color: orange;
-}
-  
-
-.donateur p {
-    display: flex;
-    justify-content: center;
-    color: white;
+    align-items: center;
 }
 
-.container-effectif{
+.box-liens{
+    margin: 20px 0 20px 0;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
     display: flex;
     justify-content: center;
-    gap:20rem;
-    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f1c40f;
 }
-   
+
+.box-liens a{
+    text-decoration: none;
+    color: black;
+}
+
+.second{
+    margin: 0;
+}
+
+
+ 
 .notre-equipe{
     margin: 10px;
     padding: 10px;
+}
+
+.team{
+   border-radius: 5px;
+   
 }
 
 
