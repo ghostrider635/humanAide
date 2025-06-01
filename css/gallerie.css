@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header h1{
+    font-size: 2.5em;
+    color: orange;
+}
+.header p{
+    font-size: 1.2em;
+    color: white;
+}
+
+.rang1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.gallery-item{
+    width: 40%;
+    text-align: center;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
